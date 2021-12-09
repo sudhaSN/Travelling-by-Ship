@@ -18,6 +18,7 @@ function setup(){
   sea=createSprite(400,200);
   sea.addImage(seaImg);
   sea.scale=0.3;
+  ground.x = ground.width /5;
 
   
   ship = createSprite(130,200,30,30);
